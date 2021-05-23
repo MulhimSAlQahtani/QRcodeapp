@@ -1,13 +1,13 @@
 //
-//  AppDelegate.swift
+//  Account Info.swift
 //  QR code app
 //
-//  Created by Aok Kurdi on 2/4/19.
-//  Copyright © 2019 Aok Kurdi. All rights reserved.
+//  Created by Mulhim Alqahtani on 11/30/19.
+//  Copyright © 2019 Mulhim Alqahtani. All rights reserved.
 //
 
 import UIKit
-
+import Firebase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
